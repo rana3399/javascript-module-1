@@ -1,7 +1,7 @@
 
 
 function percentage(nOfStudent, totalMentor){
-    return (total  / student)* 100;
+    return (student / total)* 100;
 
 }
 
