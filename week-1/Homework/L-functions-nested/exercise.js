@@ -6,6 +6,40 @@
 
 // -------------------------------
 
+function percentage(totalStudent, totalPeople){
+  return (student / totalPeople)* 100;
+
+}
+
+var totalPeople = 19; //14
+var student = 12; //19
+
+var preciseResult =  Math.round(percentage(student, totalPeople));
+
+
+console.log("The percentage of the student in the group is : " + preciseResult + "%");
+
+// -----------------------
+
+function percentage(totalMentor, totalPeople){
+  return (mentor / totalPeople)* 100;
+
+}
+
+var totalPeople = 19; //14
+var mentor = 5; //19
+
+var preciseResult =  Math.round(percentage(mentor, totalPeople));
+
+
+console.log("The percentage of the mentors in the group is : " + preciseResult + "%");
+
+
+// ------------------------------------
+
+
+
+
 function getAgeInDays(age) {
   return age * 365;
 }
