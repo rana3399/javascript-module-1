@@ -8,8 +8,19 @@
 
 // console.log("My name is " + name + "my name is " + namelength + "characters long.");
 
-var name = "Ahmed"
-var age = 27;
-var countInDays = age * 365;
+// var name = "Ahmed"
+// var age = 27;
+// var countInDays = age * 365;
 
-console.log("My name is " + name + " and i was born " + countInDays + " ago.");
+// console.log("My name is " + name + " and i was born " + countInDays + " days ago.");
+
+// -------------
+
+
+function double(number) {
+    return number * 2;
+  }
+  
+  var result = double(2);
+  
+  console.log(result);
