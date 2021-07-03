@@ -1,10 +1,24 @@
-// var mentor1 = "Daniel";
-// var mentor2 = "Irina";
-// var mentor3 = "Mimi";
-// var mentor4 = "Rob";
-// var mentor5 = "Yohannes";
+var mentor1 = "Daniel";
+var mentor2 = "Irina";
+var mentor3 = "Mimi";
+var mentor4 = "Rob";
+var mentor5 = "Yohannes";
 
-// -------------------------------
+console.log("Welcome to Barcelona " + mentor1.toUpperCase());
+console.log("Welcome to Barcelona " + mentor2.toUpperCase());
+console.log("Welcome to Barcelona " + mentor3.toUpperCase());
+console.log("Welcome to Barcelona " + mentor4.toUpperCase());
+console.log("Welcome to Barcelona " + mentor5.toUpperCase());
+
+
+
+
+
+
+
+
+
+// ------------------------------------------
 
 function percentage(totalStudent, totalPeople){
   return (student / totalPeople)* 100;
