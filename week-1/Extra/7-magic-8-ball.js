@@ -45,6 +45,31 @@ Very doubtful.
 
 // This should log "The ball has shaken!"
 // and return the answer.
+
+const veryPositive = ["It is certain.", "It is decidedly so.", "Without a doubt", "Yes - definitely.", "You may rely on it."];
+const positive = ["As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes."];
+const negative = ["Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again."];
+const veryNegative = ["Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful."];
+
+const allAnswers = veryPositive + positive + negative + veryNegative;
+return allAnswers;
+
+console.log("The ball has shaken!");
+
+function shakeBall(question){
+   const floorAllAns = Math.floor(allAnswers);
+   const randomAllAns = Math.random(allAnswers) * floorAllAns.lengthlength;
+  return randomAllAns;
+}
+
+console.log(shakeBall());
+
+
+
+
+
+
+
 function shakeBall(question){
 
   var question = "Ask your question here: ";
@@ -70,14 +95,8 @@ function shakeBall(question){
 
 }
 
-
 console.log(shakeBall("What would be the weather like today?"));
 
-// shakeBall( "Am i a lucky person ?")
-
-
-
-// console.log("The ball has shaken!" + answer1);
 
 // This function should say whether the answer it is given is
 // - very positive

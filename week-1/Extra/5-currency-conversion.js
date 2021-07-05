@@ -18,11 +18,12 @@ function convertToUSD(pound) {
   They have also decided that they should add a 1% fee to all foreign transactions, which means you only convert 99% of the £ to BRL.
 */
 
-// function convertToBRL(putPound) {
+// function convertToBRL(pound) {
 //  rateAfterFee = (5.7 * 99) / 100;
  
-//   clientGet = rateAfterFee * putPound;
-//   return clientGet.toFixed(2);
+//   clientGet = rateAfterFee * pound;   //   ??why not working??
+//   var result = clientGet.toFixed(2);
+//   return result;
 
 // }
 

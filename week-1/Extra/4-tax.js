@@ -1,14 +1,14 @@
 /*
   SALES TAX
   =========
-  A business requires a program that calculates how much sales tax to charge
+  A business requires a program that calculates how much sales tax to charge.
   Sales tax is 20% of the price of the product
 */
 
-function calculateSalesTax(price) {
+// const currencySymbol = "formatpriceWithTax";
 
-  var x = (price * 20) / 100; 
-  return x;
+function calculateSalesTax(price) {
+    return price + price / 100 * 20; 
 }
 
 /*
@@ -21,19 +21,20 @@ function calculateSalesTax(price) {
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-function addTaxAndFormatCurrency(sellingPrice) {
-  var saleTax = calculateSalesTax(sellingPrice);
+function addTaxAndFormatCurrency(price) {
+  var priceWithTax = calculateSalesTax(price);
 
-  var totalWithTax = sellingPrice + saleTax;
-  return totalWithTax;
+  var formatpriceWithTax = priceWithTax.toFixed(2);
+  var result = "£" + formatpriceWithTax;
+  return result;
 
   
 }
-var finalResult = addTaxAndFormatCurrency(18.4855);
-finalResult = (finalResult.toFixed(2));
-console.log('£ ' + finalResult);
+// var finalResult = addTaxAndFormatCurrency(15);
+// finalResult = (finalResult.toFixed(2));
+// console.log('£ ' + finalResult);
 
-  // var price1 = 500;
+
   
 
 
