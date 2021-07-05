@@ -45,18 +45,39 @@ Very doubtful.
 
 // This should log "The ball has shaken!"
 // and return the answer.
-function shakeBall(question) {
-  var anyQuestion = question + "Am i a lucky person ?"
-  var answer1 = "It is decidedly so.";
-  return answer1
+function shakeBall(question){
+
+  var question = "Ask your question here: ";
+  var lenthOfQues = question.length;
+
+  var PositAns1 = "You may rely on it.";
+  var PositAns2 = "It is decidedly so.";
+  var NegetAns1 = "Cannot predict now.";
+
+
+
+  if (lenthOfQues >= 8  && lenthOfQues <= 15) {
+    console.log(PositAns1);
+
+  }
+
+  else if (lenthOfQues >= 16  && lenthOfQues <= 25) {
+    console.log(PositAns2);
+  }
+
+  else
+  console.log(NegetAns1);
 
 }
 
-shakeBall( "Am i a lucky person ?")
+
+console.log(shakeBall("What would be the weather like today?"));
+
+// shakeBall( "Am i a lucky person ?")
 
 
 
-console.log("The ball has shaken!" + answer1);
+// console.log("The ball has shaken!" + answer1);
 
 // This function should say whether the answer it is given is
 // - very positive

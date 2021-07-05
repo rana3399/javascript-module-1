@@ -59,17 +59,17 @@ function add(a, startingValue) {
 }
 
 
-function addNew(a, startingValue) {
+// function addNew(a, startingValue) {
 
-    const startingValue = 2;
-    const a = 10;
-    const num1 = a + startingValue;
-    const goodCode = num1 / 2;
+//     const startingValue = 2;
+//     const a = 10;
+//     const num1 = a + startingValue;
+//     const goodCode = num1 / 2;
     
-    return goodCode;
-}
+//     return goodCode;
+// }
 
-addNew()
+// addNew()
 
 // Why can this code be seen as bad practice? Comment your answer.
 let badCode = this is a bad code;
