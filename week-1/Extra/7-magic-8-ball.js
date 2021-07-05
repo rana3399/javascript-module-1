@@ -3,7 +3,7 @@
 Let's peer into the future using a Magic 8 Ball!
 https://en.wikipedia.org/wiki/Magic_8-Ball 
 
-There are a few steps to being able view the future though:
+There are a few steps to being able to view the future though:
 * Ask a question
 * Shake the ball
 * Get an answer
@@ -45,8 +45,18 @@ Very doubtful.
 
 // This should log "The ball has shaken!"
 // and return the answer.
-function shakeBall() {
+function shakeBall(question) {
+  var anyQuestion = question + "Am i a lucky person ?"
+  var answer1 = "It is decidedly so.";
+  return answer1
+
 }
+
+shakeBall( "Am i a lucky person ?")
+
+
+
+console.log("The ball has shaken!" + answer1);
 
 // This function should say whether the answer it is given is
 // - very positive

@@ -1,18 +1,31 @@
 // There are syntax errors in this code - can you fix it to pass the tests?
 
-function addNumbers(a b c) {
+function addNumbers(a, b, c) {
     return a + b + c;
 }
 
-function introduceMe(name, age)
-return "Hello, my name is " + name "and I am " age + "years old";
+console.log(addNumbers(10, 20, 30));
+// --------------------------------------------
+
+
+function introduceMe(name, age) {
+    return "Hello, my name is " + name + " and I am " + age + " years old";
+}
+
+ 
+console.log(introduceMe("Daniel ", 27));
+
+// ----------------------
+
 
 function getTotal(a, b) {
-    total = a ++ b;
+    total = a + b;
 
     // Use string interpolation here
-    return "The total is %{total}"
+    return `The total is ${total}`;
+ 
 }
+console.log(getTotal(5, 8));
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
@@ -26,6 +39,8 @@ function test(test_name, actual, expected) {
     let status;
     if (actual === expected) {
         status = "PASSED";
+        
+
     } else {
         status = `FAILED: expected: ${util.inspect(expected)} but your function returned: ${util.inspect(actual)}`;
     }

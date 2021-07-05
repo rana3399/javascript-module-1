@@ -4,49 +4,51 @@ var mentor3 = "Mimi";
 var mentor4 = "Rob";
 var mentor5 = "Yohannes";
 
-console.log("Welcome to Barcelona " + mentor1.toUpperCase());
-console.log("Welcome to Barcelona " + mentor2.toUpperCase());
+var greeting = "Welcome to Spain ";
+
+console.log(greeting.toUpperCase() + mentor1.toUpperCase());
+console.log(greeting + mentor2.toUpperCase());
 console.log("Welcome to Barcelona " + mentor3.toUpperCase());
 console.log("Welcome to Barcelona " + mentor4.toUpperCase());
 console.log("Welcome to Barcelona " + mentor5.toUpperCase());
 
-
-
-
-
-
-
-
-
 // ------------------------------------------
 
-function percentage(totalStudent, totalPeople){
-  return (student / totalPeople)* 100;
+
+// Exercise -1
+
+function percentage(person, totalPeople){
+  return (person / totalPeople)* 100;
 
 }
 
-var totalPeople = 19; //14
-var student = 12; //19
-
-var preciseResult =  Math.round(percentage(student, totalPeople));
-
-
-console.log("The percentage of the student in the group is : " + preciseResult + "%");
-
-// -----------------------
-
-function percentage(totalMentor, totalPeople){
-  return (mentor / totalPeople)* 100;
-
-}
 
 var totalPeople = 19; //14
 var mentor = 5; //19
+var student = 12;
 
-var preciseResult =  Math.round(percentage(mentor, totalPeople));
+var preciseResult =  Math.round(percentage(student, totalPeople));
+var preciseResultforMentor =  Math.round(percentage(mentor, totalPeople));
 
 
-console.log("The percentage of the mentors in the group is : " + preciseResult + "%");
+
+console.log("The percentage of the student in the group is : " + preciseResult + "%");
+console.log("The percentage of the mentors in the group is : " + preciseResultforMentor + "%");
+
+// -----------------------
+
+// function percentage(totalMentor, totalPeople){
+//   return (mentor / totalPeople)* 100;
+
+// }
+
+// var totalPeople = 19; //14
+// var mentor = 5; //19
+
+// var preciseResult =  Math.round(percentage(mentor, totalPeople));
+
+
+// console.log("The percentage of the mentors in the group is : " + preciseResult + "%");
 
 
 // ------------------------------------

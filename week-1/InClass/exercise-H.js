@@ -3,6 +3,6 @@ function ageInDays(age){
 
 }
 
-const myAge = "Enter your age: " + ageInDays(20);
+const myAge = "Your age  is: " + ageInDays(20);
 
 console.log(myAge);

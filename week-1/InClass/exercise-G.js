@@ -6,7 +6,7 @@ function percentage(nOfStudent, totalMentor){
 }
 
 var total = 19; //14
-var student = 14; //19
+var student = 12; //19
 // var mentor = prompt("Please enter total number of people in the mentor: "); //5
 
 var preciseResult =  Math.round(percentage(student, total));

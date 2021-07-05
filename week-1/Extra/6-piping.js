@@ -16,26 +16,67 @@
   the final result to the variable goodCode
 */
 
-function add() {
+// var a = 2;
+// var x = 5;
+// var b = 8;
+// var y = 9;
+
+// var num1 = a + x; //7
+// var num2 = b * y; //72
+
+// var sum = "£ " + (num1 + num2);
+
+
+
+
+function add(a, x) {
+    var num1 = a + x;
+    return num1;
+}
+
+function multiply(b, y) {
+    var num2 = b * y;
+    return num2;
+}
+
+function format(sum) {
+    var sum = "£ " + (num1 + num2);
+    return sum;
+
 
 }
 
-function multiply() {
 
+
+function add(a, startingValue) {
+
+    const startingValue = 2;
+    const a = 10;
+    const num1 = a + startingValue;
+    const badCode = num1 / 2;
+    
+    return badCode;
 }
 
-function format() {
 
+function addNew(a, startingValue) {
+
+    const startingValue = 2;
+    const a = 10;
+    const num1 = a + startingValue;
+    const goodCode = num1 / 2;
+    
+    return goodCode;
 }
 
-const startingValue = 2
+addNew()
 
 // Why can this code be seen as bad practice? Comment your answer.
-let badCode = 
+let badCode = this is a bad code;
 
 /* BETTER PRACTICE */
 
-let goodCode = 
+let goodCode = this is a good code;
 
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.

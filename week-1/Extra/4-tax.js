@@ -5,7 +5,11 @@
   Sales tax is 20% of the price of the product
 */
 
-function calculateSalesTax() {}
+function calculateSalesTax(price) {
+
+  var x = (price * 20) / 100; 
+  return x;
+}
 
 /*
   CURRENCY FORMATTING
@@ -17,7 +21,21 @@ function calculateSalesTax() {}
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-function addTaxAndFormatCurrency() {}
+function addTaxAndFormatCurrency(sellingPrice) {
+  var saleTax = calculateSalesTax(sellingPrice);
+
+  var totalWithTax = sellingPrice + saleTax;
+  return totalWithTax;
+
+  
+}
+var finalResult = addTaxAndFormatCurrency(18.4855);
+finalResult = (finalResult.toFixed(2));
+console.log('£ ' + finalResult);
+
+  // var price1 = 500;
+  
+
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.
@@ -44,3 +62,18 @@ test("calculateSalesTax function - case 3 works", calculateSalesTax(34), 40.8)
 test("addTaxAndFormatCurrency function - case 1 works", addTaxAndFormatCurrency(15), "£18.00")
 test("addTaxAndFormatCurrency function - case 2 works", addTaxAndFormatCurrency(17.5), "£21.00")
 test("addTaxAndFormatCurrency function - case 3 works", addTaxAndFormatCurrency(34), "£40.80")
+
+
+
+
+
+// --------------------
+// var saleTax = calculateSalesTax(sellingPrice);
+
+// var priceWithTax = sellingPrice + saleTax;
+// return priceWithTax;
+
+// }
+// var finalResult = addTaxAndFormatCurrency(1000);
+
+// console.log(finalResult);
