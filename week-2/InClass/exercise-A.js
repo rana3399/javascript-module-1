@@ -12,10 +12,12 @@ else if (a >= 60 && a <=79){
 };
 
 
-else if (a >= 33 && <=59){
+else if (a >= 33 && a <=59){
     console.log("D")
 };
 
 
-else
+else{
     console.log("FAIL");
+}
+    
