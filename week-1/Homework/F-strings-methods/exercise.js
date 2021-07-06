@@ -3,24 +3,19 @@
 
 
 
-// var name = "Ahmed";
-// var namelength = name.length;
 
-// console.log("My name is " + name + "my name is " + namelength + "characters long.");
+var name = "Ahmed";
+var namelength = name.length;
 
-// var name = "Ahmed"
-// var age = 27;
-// var countInDays = age * 365;
-
-// console.log("My name is " + name + " and i was born " + countInDays + " days ago.");
-
-// -------------
+console.log(`My name is ${name} and its ${namelength} characters long.`);
 
 
-function double(number) {
-    return number * 2;
-  }
+
+
+// function double(number) {
+//     return number * 2;
+//   }
   
-  var result = double(2);
+//   var result = double(2);
   
-  console.log(result);
+//   console.log(result);

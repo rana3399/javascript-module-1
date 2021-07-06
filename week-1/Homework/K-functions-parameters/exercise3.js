@@ -2,9 +2,11 @@
 
 function createGreeting(string){
 
-    return "Hello, my name is" + string;
+    var greeting = "welcome to Barcelona!";
+
+    return `Hello, Daniel ${greeting}`;
 }
 
-var greeting = createGreeting(" Rana ahmed");
 
-console.log(greeting);
+
+console.log(createGreeting());
