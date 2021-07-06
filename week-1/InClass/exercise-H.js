@@ -1,8 +1,11 @@
+
+
+
 function ageInDays(age){
   return age * 365;
+  
 
 }
 
-const myAge = "Your age  is: " + ageInDays(20);
-
-console.log(myAge);
+var message = " Your age is:"
+console.log(`message ${ageInDays(20)} days`);
