@@ -2,10 +2,8 @@
 
 var apolloCountdownMessage = "all engine running... LIFT-OFF!";
 
-console.log(apolloCountdownMessage);
-
 var countdown = 8;
-while (countdown >= 7){
+while (countdown >= 0){
     
     console.log("The count is " + countdown);
 
@@ -13,10 +11,7 @@ while (countdown >= 7){
 
     
 }
-
-
-
-
+console.log(apolloCountdownMessage);
 
 
 
