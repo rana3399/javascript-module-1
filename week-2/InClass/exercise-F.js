@@ -1,23 +1,19 @@
 
-function userformat(userName, userType){
+  function userCheck(userName, userType){
+        
 
+        if (userName.length >=5 && userName.length <= 10 && userName.charAt(0) === userName.charAt(0).toUpperCase()) {
+        return "Username valid";
+    }
 
-
-    if (userName.lenth == charAt(0).toupperCase() >=5 && userName.lenth <=10 ){
-
+    else if (userType == "admin" || userType == "manager"){
         return "Username valid"
     }
 
-    if (userName == "admin" || userName == "manager" ){
-
-        return "Username valid"
+    else {
+        return "Username invalid";
     }
 
-    else{
-
-        return "Username valid"
     }
 
-
-}
-console.log(userformat("admin"))
+    console.log(userCheck("jhon", "manager"));
