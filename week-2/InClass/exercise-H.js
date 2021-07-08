@@ -5,12 +5,15 @@ function exponential(number) {
 
 function isEven(number) {
 
-  for(i=5; i<=number; i++){
-    if(i % 2 == 0){
-    
-      var exponentialNumber = exponential(i); //all the even numbers are inside i
-      console.log("The expo. of " + i + "is " + exponentialNumber);
+  for(i=5; i <= number; i++){
 
+      if(i % 2 == 0){
+      var exponentialNumber = exponential(i); //all the even numbers are inside i
+      console.log("The exponential of " + i + " is " + exponentialNumber);
+    }
+       
+  }
+    
 }
 
 isEven(20);
