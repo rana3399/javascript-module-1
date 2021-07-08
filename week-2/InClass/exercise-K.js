@@ -1,15 +1,16 @@
 function studentName(aryOfName){
+    var namesAry = ["Ahmed", "Suman", "Amy", "Diego"];
 
-    for(i = 0; i <= aryOfName.length; i++){
-    // const  = "Name is: " + aryOfName[i];
-        return aryOfName[i];
 
+    for(i = 0; i < aryOfName.length; i++){
+
+
+        console.log(studentName(namesAry));
     }
 
     
 } 
 
-var namesAry = ["Ahmed", "Suman", "Amy", "Diego"];
-console.log(studentName(namesAry));
+
 
 // ----------NOT DONE------

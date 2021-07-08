@@ -5,7 +5,47 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(number) {
+
+  
+  if(number < 0){
+    return true;
+    
+  }else{
+    return false;
+
+  }
+
+}
+
+function isBetween5and10(bNumbers){
+
+  if(bNumbers >=5 && bNumbers <=10){
+
+    return true;
+  }
+}
+
+function isShortName(isShort){
+  if (isShort.length < 9){
+    return true;
+
+  }else{
+    return false;
+  }
+
+}
+
+
+function startsWithD(stringInPut){
+  if (stringInPut.charAt(0) === stringInPut.charAt(0).toUpperCase()){
+    return true;
+  }else {
+    return false;
+  }
+
+}
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE

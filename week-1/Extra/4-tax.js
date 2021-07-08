@@ -1,14 +1,14 @@
 /*
   SALES TAX
   =========
-  A business requires a program that calculates how much sales tax to charge.
+  A business requires a program that calculates how much sales tax to charge
   Sales tax is 20% of the price of the product
 */
 
-// const currencySymbol = "formatpriceWithTax";
-
 function calculateSalesTax(price) {
-    return price + price / 100 * 20; 
+
+  var price = 
+  return (price * 20) / 100;
 }
 
 /*
@@ -21,21 +21,20 @@ function calculateSalesTax(price) {
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-function addTaxAndFormatCurrency(price) {
-  var priceWithTax = calculateSalesTax(price);
-
-  var formatpriceWithTax = priceWithTax.toFixed(2);
-  var result = "£" + formatpriceWithTax;
-  return result;
+function addTaxAndFormatCurrency(sellingPrice) {
 
   
+
+  var sale = 
+  return (price * 20) / 100;
+
+  var aftertax = sale + 20
+
+  
+
 }
-// var finalResult = addTaxAndFormatCurrency(15);
-// finalResult = (finalResult.toFixed(2));
-// console.log('£ ' + finalResult);
 
 
-  
 
 
 /* ======= TESTS - DO NOT MODIFY =====
@@ -63,18 +62,3 @@ test("calculateSalesTax function - case 3 works", calculateSalesTax(34), 40.8)
 test("addTaxAndFormatCurrency function - case 1 works", addTaxAndFormatCurrency(15), "£18.00")
 test("addTaxAndFormatCurrency function - case 2 works", addTaxAndFormatCurrency(17.5), "£21.00")
 test("addTaxAndFormatCurrency function - case 3 works", addTaxAndFormatCurrency(34), "£40.80")
-
-
-
-
-
-// --------------------
-// var saleTax = calculateSalesTax(sellingPrice);
-
-// var priceWithTax = sellingPrice + saleTax;
-// return priceWithTax;
-
-// }
-// var finalResult = addTaxAndFormatCurrency(1000);
-
-// console.log(finalResult);
