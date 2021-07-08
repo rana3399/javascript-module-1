@@ -1,22 +1,33 @@
-function exponential(evenNumber) {
-  return evenNumber * evenNumber;
+function exponential(number) {
+  return number * number;
 }
 
-console.log(exponential(5));
+console.log(exponential());
 
 
 function isEven(number) {
-  return number % 2 == 2;
-}
+  for(var i=5; i<=num; i++){
+    if(i % 2 == 0){
 
-console.log(isEven(5));
-
-for (i = 5; i <= 20; i++){
-  if (i % 2 = 0) {
-    return evenNumber
-
-
-  }
+  return i;
 
 
 }
+
+console.log(isEven(10));
+
+
+// --------------------------------------
+
+// var num=20;
+// var message = "The exponential of " 
+        
+//     for(var i=5; i<=num; i++){
+//         if(i % 2 == 0){
+
+//         // console.log(i)
+            
+//         console.log(message + i + " is " + (i * i))
+        
+//         }
+//     }

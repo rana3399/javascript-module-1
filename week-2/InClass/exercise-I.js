@@ -1,12 +1,10 @@
-var num=20;
-var message = "The exponential of " 
-        
-        for(var i=5; i<=num; i++){
-            if(i % 2 == 0){
+const fruits = ['banana', 'apple', 'strawberry', 'kiwi', 'fig', 'orange'];
 
-            // console.log(i)
-                
-            console.log(message + i + " is " + (i * i))
-            
-            }
-        }
+console.log(fruits[2]);
+console.log(fruits[3]);
+console.log(fruits[5]);
+console.log(fruits[0]);
+
+fruits[1] =  'raspberry';
+fruits[4] =  'pineapple';
+console.log(fruits);
