@@ -2,19 +2,18 @@ function exponential(number) {
   return number * number;
 }
 
-console.log(exponential());
-
 
 function isEven(number) {
-  for(var i=5; i<=num; i++){
+
+  for(i=5; i<=number; i++){
     if(i % 2 == 0){
-
-  return i;
-
+    
+      var exponentialNumber = exponential(i); //all the even numbers are inside i
+      console.log("The expo. of " + i + "is " + exponentialNumber);
 
 }
 
-console.log(isEven(10));
+isEven(20);
 
 
 // --------------------------------------
@@ -22,7 +21,7 @@ console.log(isEven(10));
 // var num=20;
 // var message = "The exponential of " 
         
-//     for(var i=5; i<=num; i++){
+//     for(var i=5; i <= num; i++){ 
 //         if(i % 2 == 0){
 
 //         // console.log(i)
