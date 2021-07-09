@@ -6,7 +6,14 @@
 */
 
 function isEmpty(arr) {
-  return; // complete this statement
+
+  if (Array.isArray(arr) && arr.length){
+    return true;
+  }
+  else {
+    return false; // complete this statement
+  }
+  
 }
 
 /* 
