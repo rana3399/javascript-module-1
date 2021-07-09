@@ -5,11 +5,8 @@
 
 
 const daysOfWeek = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
+  "Monday is a good day"
 ];
+
+const result = daysOfWeek.startsWith("Mon");
+console.log(result);

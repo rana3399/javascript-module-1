@@ -7,8 +7,18 @@
 */
 
 let n = 10;
-
+let sum = 0;
 function sumTillNum(num){
+
+	var i = 0;
+	while(i < num){
+		i++
+		
+		console.log([i]);
+		sum = sum + i;
+	}
+	return sum;
+	
 	//your code here
 }
 
