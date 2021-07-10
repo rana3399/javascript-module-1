@@ -7,7 +7,7 @@ while (countdown >= 0){
     
     console.log("The count is " + countdown);
 
-    countdown -= 1;
+    countdown --;
 
     
 }

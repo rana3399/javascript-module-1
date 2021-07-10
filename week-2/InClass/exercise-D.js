@@ -21,4 +21,6 @@ function checkMyFeelings (input){
 
 }
 
-console.log(checkMyFeelings("45 "));
+var talas = checkMyFeelings("hello ");
+
+console.log(talas);

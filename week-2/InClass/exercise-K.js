@@ -1,15 +1,15 @@
 function studentName(aryOfName){
-    var namesAry = ["Ahmed", "Suman", "Amy", "Diego"];
+    
+    for(var i = 1; i < aryOfName.length; i++){
 
 
-    for(i = 0; i < aryOfName.length; i++){
-
-
-        console.log(studentName(namesAry));
+        console.log(aryOfName[i]);
     }
 
     
 } 
+var namesAry = ["Ahmed", "Suman", "Amy", "Diego"];
+console.log(studentName(namesAry));
 
 
 
