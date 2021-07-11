@@ -19,11 +19,6 @@ numbers[0] = 1;
 console.log(numbers);
 
 /* 
-  DO NOT EDIT BELOW THIS LINE
-  --------------------------- */
-console.log(numbers);
-
-/* 
   EXPECTED RESULT
   ---------------
   [1, 2, 3, 4]

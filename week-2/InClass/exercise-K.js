@@ -1,6 +1,6 @@
 function studentName(aryOfName){
     
-    for(var i = 1; i < aryOfName.length; i++){
+    for(var i = 0; i < aryOfName.length; i++){
 
 
         console.log(aryOfName[i]);
@@ -8,7 +8,7 @@ function studentName(aryOfName){
 
     
 } 
-var namesAry = ["Ahmed", "Suman", "Amy", "Diego"];
+var namesAry = ["Ahmed", "Suman", "Amy", "Diego", "maria"];
 console.log(studentName(namesAry));
 
 

@@ -2,7 +2,7 @@
   function userCheck(userName, userType){
         
 
-        if (userName.length >=5 && userName.length <= 10 && userName.charAt(0) === userName.charAt(0).toUpperCase()) {
+    if (userName.length >=5 && userName.length <= 10 && userName.charAt(0) === userName.charAt(0).toUpperCase()) {
         return "Username valid";
     }
 

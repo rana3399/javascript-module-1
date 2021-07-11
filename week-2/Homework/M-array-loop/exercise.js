@@ -4,9 +4,16 @@
 */
 
 
-const daysOfWeek = [
-  "Monday is a good day"
-];
+var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",];
 
-const result = daysOfWeek.startsWith("Mon");
+var result = daysOfWeek.[startsWith("Mon")];
 console.log(result);
+
+
+
+
+// let str = "Hello world, welcome to the universe.";
+
+// var startWith = str.startsWith("Hello")
+
+// console.log(startWith);
