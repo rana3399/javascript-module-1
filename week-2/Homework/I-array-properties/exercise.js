@@ -7,13 +7,12 @@
 
 function isEmpty(arr) {
 
-  if (Array.isArray(arr) && arr.length){
+  if (arr >= 0){
     return true;
   }
   else {
     return false; // complete this statement
-  }
-  
+  } 
 }
 
 /* 
@@ -24,6 +23,7 @@ var names = [];
 
 console.log(isEmpty(numbers));
 console.log(isEmpty(names));
+console.log(names.length);
 
 /* 
   EXPECTED RESULT

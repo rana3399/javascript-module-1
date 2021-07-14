@@ -12,8 +12,9 @@ let sum = 0;
 function sumTillNum(num){      
 	var i = 0 
 	while(i < num){
+		
+		console.log(i)
 		i++
-		console.log([i])
 		
 		sum = sum + i;   
 	}
