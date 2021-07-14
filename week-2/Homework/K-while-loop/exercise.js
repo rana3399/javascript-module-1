@@ -11,7 +11,7 @@ let sum = 0;
 
 function sumTillNum(num){      
 	var i = 0 
-	while(i < num){
+	while(i <= num){
 		
 		console.log(i)
 		i++
