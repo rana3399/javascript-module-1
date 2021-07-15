@@ -17,8 +17,8 @@ function magician(yourFunc) {
 }
 
 function upperLetter(namesArray){
-    return namesArray.map((name))
+    return namesArray.map((name) => name.toUpperCase())
 
 }
 
-console.log(magician(yourFunc))
+console.log(magician(upperLetter));

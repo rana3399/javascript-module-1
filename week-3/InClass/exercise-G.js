@@ -1,7 +1,9 @@
 var bYear = [ 1964, 2008, 1999, 2005, 1978, 1985, 1919 ];
 
 function checkAdult(bYear){
-    return 2021 - bYear;
+    var actualAge = 2021 - bYear;
+    console.log(actualAge);
+
 }
 
 function driveOrNot(){
