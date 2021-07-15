@@ -10,12 +10,10 @@ let n = 10;
 let sum = 0;
 function sumTillNum(num){
 
-	var i = 0;
-	while(i < num){
-		i++
-		
-		console.log([i]);
+	for(i = 0; i <= num; i++){
+
 		sum = sum + i;
+		console.log([i]);
 	}
 	return sum;
 	
