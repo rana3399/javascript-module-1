@@ -1,14 +1,8 @@
 var names = ['Rana', 'Joanna', 'Suman', 'Maria'];
 
 
- 
-
-function x (names){
-    names === 'Rana';
-    return names;
+function findMyName(names){
+    return names == 'Rana';
 }
 
-function myName(names){
-
-    return names.find(x);
-}
+console.log(names.find(findMyName));
