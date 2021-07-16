@@ -5,9 +5,7 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-function containSameOrNot(){
-  return students == group;
-}
+var concatinateALL = student.concat(group);
 
 var groupIsOnlyStudents = group.every(containSameOrNot);         // complete this statement
 
