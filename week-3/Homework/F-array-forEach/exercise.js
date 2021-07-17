@@ -10,16 +10,13 @@
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 
-function check(number){
-
-  if(number % 3 === 0){
-    console.log("Fizz");
-  }
-
-}
+checkTheNumbers =  arr.forEach(function findIt(number) {
+  if (number % 3 == 0)
+  console.log("BUZZ")
+})
 
 
-  var modulas = arr.map(check);
+
 /* EXPECTED OUTPUT */
 
 /*

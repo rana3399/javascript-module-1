@@ -1,5 +1,7 @@
 /*
    This program should check if the array `group` contains only students
+
+   USE EVERY AND INCLUDES METHOD
 */
 
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];

@@ -9,7 +9,7 @@
 var namesArray = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 
 
- var longlNameStartsWith = namesArray.find(x => x.startsWith("A") && x.length > 7);
+ var longlNameStartsWith = namesArray.find(name => name.startsWith("A") && name.length > 7);
   
 console.log(longlNameStartsWith);
 

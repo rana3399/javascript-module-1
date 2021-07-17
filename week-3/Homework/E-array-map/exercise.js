@@ -3,13 +3,13 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
-// function multiply(numbers){
-//     return numbers * 100;
+function multiply(numbers){
+    return numbers * 100;
 
-// }
+}
 
-// var result = numbers.map(multiply);
-// console.log(result);
+var result = numbers.map(multiply);
+console.log(result);
 
 // ----------------------------------------------------------------------------------------
 // function multiplyDemo(numbers){
@@ -24,8 +24,8 @@ var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 // ------------------------------------------------------------------------------------
 
 
-function newMultiply(numbers){
-    var result = numbers.map(digits => digits * 100);
-    return result;
-}
-console.log(newMultiply(numbers));
+// function newMultiply(numbers){
+//     var result = numbers.map(digit => digit * 100);
+//     return result;
+// }
+// console.log(newMultiply(numbers));

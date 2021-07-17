@@ -9,11 +9,10 @@
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
 function pairsOrNot(pairs){
- var result = pairs.filter((x) => {
-  
-    return x;
+ var result = pairs.filter((pair) =>
+   Array.isArray(pair) && pair.length === 2
 
- })
+ )
  return result;
 
 }
