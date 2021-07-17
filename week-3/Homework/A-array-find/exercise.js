@@ -9,18 +9,9 @@
 var namesArray = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 
 
-function startsWith_A(names){
-    names.find((anyName) =>{
-        var result = anyName.startsWith('A');
-        console.log(result);
-    });
-
-    function isAboveThreshold(name) {
-      return name.length > 7;
-    }
-
-
-console.log(startsWith_A(namesArray));
+ var longlNameStartsWith = namesArray.find(x => x.startsWith("A") && x.length > 7);
+  
+console.log(longlNameStartsWith);
 
 /* EXPECTED OUTPUT */
 // "Alexandra"

@@ -5,16 +5,23 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-var concatinateALL = student.concat(group);
 
-var groupIsOnlyStudents = group.every(containSameOrNot);         // complete this statement
+// var groupIsOnlyStudents = students.every(x => x == ["Dany"]);      // complete this statement
 
-
-if (groupIsOnlyStudents) {
-  console.log("The group contains only students");
-} else {
-  console.log("The group does not contain only students");
+function groupIsOnlyStudents(student){
+   var groupIsOnly = student.every((s) => {
+    s == "Dany";
+    return groupIsOnly;
+  })
 }
+
+console.log(groupIsOnlyStudents(students));
+
+// if (groupIsOnlyStudents) {
+//   console.log("The group contains only students");
+// } else {
+//   console.log("The group does not contain only students");
+// }
 
 /* EXPECTED RESULT */
 
