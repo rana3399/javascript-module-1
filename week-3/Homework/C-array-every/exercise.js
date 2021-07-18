@@ -8,23 +8,26 @@ var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
 
-// var groupIsOnlyStudents = students.every(x => x == ["Dany"]);      // complete this statement
+var studentsWhoAreInGroup = group.every(groupStudent => students.includes(groupStudent));
 
-function groupIsOnlyStudents(student){
-   var groupIsOnly = student.every((s) => {
-    s == "Dany";
-    return groupIsOnly;
-  })
+if(studentsWhoAreInGroup == true){
+   console.log("Group contains all the students");
+}else{
+   console.log("Does Not contain all the students");
 }
 
-console.log(groupIsOnlyStudents(students));
 
-// if (groupIsOnlyStudents) {
-//   console.log("The group contains only students");
-// } else {
-//   console.log("The group does not contain only students");
+
+// function studentsWhoAreInGroup(students) {
+//    var onlyGroupPeople =  group.every(groupStudent => students.includes(groupStudent));
+
+//    if(onlyGroupPeople == true){
+//       console.log("yes.....treeeeeeeeeeeeeeeeeeee");
+//    }else{
+//       console.log('this is false');
+//    }
+   
 // }
 
-/* EXPECTED RESULT */
 
-// The group does not contain only students
+// console.log(studentsWhoAreInGroup(students));

@@ -12,10 +12,16 @@ var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
 // https://nodejs.org/api/process.html#process_process_exit_code
 // process.exit(1);
 
-if(pairsByIndex.some(pair => pair === null) === true ){
-  console.log("ERROR");
+
+if(pairsByIndex.some(value => value === null) === true){
+  console.log("Error - Programme stops here!!");
   process.exit(1);
 }
+
+// if(pairsByIndex.some(pair => pair === null) === true ){
+//   console.log("ERROR");
+//   process.exit(1);
+// }
 
 var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
