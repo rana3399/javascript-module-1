@@ -8,14 +8,13 @@
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-function pairsOrNot(pairs){
- var result = pairs.filter((pair) =>
-   Array.isArray(pair) && pair.length === 2
-
- )
- return result;
-
+function pairsOrNot(pairsByIndexRaw){
+  var result = pairsByIndexRaw.filter(pair => 
+    Array.isArray(pair) && pair.length == 2);
+  return result;
 }
+  
+  
 
 var pairsByIndex = pairsOrNot(pairsByIndexRaw);   // Complete this statement
 
@@ -29,3 +28,15 @@ var pairs = pairsByIndex.map(function(indexes) {
 });
 
 console.log(pairs);
+
+
+
+
+// function pairsOrNot(pairs){
+//   var result = pairs.filter((pair) =>
+//     Array.isArray(pair) && pair.length === 2
+ 
+//   )
+//   return result;
+ 
+//  }
