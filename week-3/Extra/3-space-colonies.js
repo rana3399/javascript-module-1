@@ -8,9 +8,22 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
+function colonisers(voyagersFamilies) {
+  var result = voyagersFamilies.filter(family  => family[0] === "A" && family.includes("family"));
+     return result;
 
 }
+  
+  
+  // {
+  //    var splited = family.split(" ");
+  //    return splited[0].charAt[0] === 'A' && splited.includes("family");
+     
+     
+  // });
+
+
+
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

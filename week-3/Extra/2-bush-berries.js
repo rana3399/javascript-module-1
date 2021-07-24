@@ -10,10 +10,15 @@
   Use the tests to confirm which message to return
 */
 
-function bushChecker() {
+function bushChecker(differentItems){
+  if (differentItems.every(item => item === 'pink')){
+    return "Bush is safe to eat from";;
+
+  }else{
+    return  "Toxic! Leave bush alone!";
+  }
 
 }
-
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 let bushBerryColours1 = ["pink", "pink", "pink", "neon", "pink", "transparent"]
