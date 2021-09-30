@@ -25,9 +25,7 @@
 // var num2 = b * y; //72
 
 // var sum = "£ " + (num1 + num2);
-
-
-
+// ---------------------------------------------------------
 
 function add(a, x) {
     var num1 = a + x;
@@ -39,44 +37,33 @@ function multiply(b, y) {
     return num2;
 }
 
-function format(sum) {
-    var sum = "£ " + (num1 + num2);
+function format(number) {
+    var sum = "£" + (number.toString())
     return sum;
-
-
 }
 
+// 2. Using the variable startingValue as input, perform the following operations using your 
+//   functions all on one line (assign the result to the variable badCode):
+//   - add 10 to startingValue
+//   - multiply the result by 2
+//   - format it
+
+// let badCode = this is a bad code;
+const startingValue = 2;
+let badCode = add(startingValue, 10);  badCode = multiply(badCode, 2); badCode = format(badCode);
 
 
-function add(a, startingValue) {
-
-    const startingValue = 2;
-    const a = 10;
-    const num1 = a + startingValue;
-    const badCode = num1 / 2;
-    
-    return badCode;
-}
+/// Why can this code be seen as bad practice? Comment your answer.
 
 
-// function addNew(a, startingValue) {
+// /* BETTER PRACTICE */
+// let goodCode = this is a good code;
 
-//     const startingValue = 2;
-//     const a = 10;
-//     const num1 = a + startingValue;
-//     const goodCode = num1 / 2;
-    
-//     return goodCode;
-// }
+let goodCode = add(startingValue, 10);  
+goodCode = multiply(goodCode, 2); 
+goodCode = format(goodCode);
 
-// addNew()
 
-// Why can this code be seen as bad practice? Comment your answer.
-let badCode = this is a bad code;
-
-/* BETTER PRACTICE */
-
-let goodCode = this is a good code;
 
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
