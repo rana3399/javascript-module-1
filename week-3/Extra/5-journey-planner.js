@@ -7,7 +7,11 @@
   NOTE: only the names should be returned, not the means of transport.
 */
 
-function journeyPlanner() {
+function journeyPlanner(locations, modeOfTransport) {
+  
+  let result = locations.filter((location) => location.includes(modeOfTransport));
+  return result.map((eachArray) => eachArray[0])
+
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */

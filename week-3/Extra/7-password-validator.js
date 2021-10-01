@@ -24,6 +24,12 @@ PasswordValidationResult=  [false, false, false, false, true]
 
 function validatePasswords(passwords) {
 
+  if(passwords.length >=5 &&){
+      console.log("Pass is correct");
+  }else{
+      console.log("Not Valid");
+  }
+
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
